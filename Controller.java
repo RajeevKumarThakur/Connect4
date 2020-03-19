@@ -130,6 +130,7 @@ public class Controller implements Initializable {
 		List<Point2D> verticalPoint = IntStream.rangeClosed(row-3,row+3)
 				.mapToObj(r -> new Point2D(r,column) )
 				.collect(Collectors.toList());
+		
 		List<Point2D> horizontalPoints = IntStream.rangeClosed(column-3 , column+3)
 				.mapToObj(c -> new Point2D(row,c) )
 				.collect(Collectors.toList());
