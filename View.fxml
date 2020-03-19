@@ -61,7 +61,7 @@
                 </Label>
                 <Label alignment="CENTER" prefHeight="55.0" prefWidth="296.0" text="Turn" textFill="WHITE">
                     <font>
-                        <Font size="21.0" />
+                        <Font size="21.0"/>
                     </font>
                 </Label>
                 <Region prefHeight="96.0" prefWidth="194.0" VBox.vgrow="ALWAYS" />
